@@ -6,13 +6,13 @@ First you need edit your `composer.json` file with the following:
 
 ```js
 "require-dev": {
-    "resyuke/wepay-laravel": "dev-master"
+    "ryuske/wepay-laravel": "dev-master"
 }
 ```
 
 And then run `composer install`.
 
-Once that has finished, you need to 2 sections of your `app/config/app.php` configuration file.
+Once that has finished, you need to edit 2 sections of your `app/config/app.php` configuration file.
 The first section is the providers array, like so:
 
 ```php
@@ -35,7 +35,7 @@ The 2nd section is within the aliases array, like this:
 You just finished the installation of the Wrapper! Whoo! But... Now we have to configure it.
 
 ## Configuration
-First, run the command `php artisan config:publish ryuske\wepay-laravel`
+First, run the command `php artisan config:publish ryuske/wepay-laravel`
 
 Once you've run that command, open up the file `app/config/packages/ryuske/wepay-laravel/config.php`
 
