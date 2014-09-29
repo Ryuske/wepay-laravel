@@ -6,7 +6,8 @@ First you need edit your `composer.json` file with the following:
 
 ```js
 "require-dev": {
-    "ryuske/wepay-laravel": "dev-master"
+    "ryuske/wepay-laravel": "dev-master",
+    "wepay/PHP-SDK": "*"
 }
 ```
 
