@@ -48,8 +48,13 @@ class WepayLaravel {
      * @return \StdClass
      */
     public function request($access_token, $endpoint, $data) {
-        $wepay_object = new \WePay($access_token);
+        try {
+            $wepay_object = new \WePay($access_token);
 
-        return $wepay_object->request($endpoint, $data);
+            return $wepay_object->request($endpoint, $data);
+
+        } catch (\WePayRequestException $e) {
+            return NULL;
+        }
     }
 }
