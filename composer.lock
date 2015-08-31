@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "06dfe0539c9a88d9ca75e12979def57f",
+    "packages": [
+        {
+            "name": "illuminate/support",
+            "version": "v4.2.17",
+            "target-dir": "Illuminate/Support",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/support.git",
+                "reference": "db61f3f6d507ce417ca993e1f93585db7efd8b12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/db61f3f6d507ce417ca993e1f93585db7efd8b12",
+                "reference": "db61f3f6d507ce417ca993e1f93585db7efd8b12",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jeremeamia/superclosure": "~1.0.1",
+                "patchwork/utf8": "~1.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Support": ""
+                },
+                "files": [
+                    "Illuminate/Support/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "time": "2015-01-27 20:51:43"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "wepay/php-sdk",
+            "version": "0.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wepay/PHP-SDK.git",
+                "reference": "31bfcdd97d2c9c33c9c09129638ae31840822182"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wepay/PHP-SDK/zipball/31bfcdd97d2c9c33c9c09129638ae31840822182",
+                "reference": "31bfcdd97d2c9c33c9c09129638ae31840822182",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "wepay.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "WePay",
+                    "email": "api@wepay.com"
+                }
+            ],
+            "description": "WePay APIv2 SDK for PHP",
+            "keywords": [
+                "payment",
+                "sdk",
+                "wepay"
+            ],
+            "time": "2015-08-14 19:42:37"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
